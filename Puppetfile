@@ -8,7 +8,7 @@ mod 'vcsrepo',
 
 mod 'r10k',
   :git => 'https://github.com/acidprime/r10k.git',
-  :ref => 'v2.3.0'
+  :ref => 'PE3.7'
 
 mod 'pe_gem',
   :git => 'https://github.com/puppetlabs/puppetlabs-pe_gem.git',
