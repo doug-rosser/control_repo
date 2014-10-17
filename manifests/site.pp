@@ -1,3 +1,6 @@
+node default {
+}
+
 node 'puppet.vm' {
   include epel
 
