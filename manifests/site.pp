@@ -1,4 +1,6 @@
 node 'puppet.vm' {
+  include epel
+
   class { '::haproxy':
     global_options   => {
       'log'     => "${::ipaddress} local0",
