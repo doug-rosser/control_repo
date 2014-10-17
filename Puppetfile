@@ -34,6 +34,10 @@ mod 'clamps',
   :git => 'https://github.com/acidprime/clamps.git',
   :ref => 'pe34_update'
 
+mod 'epel',
+  :git => 'https://github.com/stahnma/puppet-module-epel.git',
+  :ref => '1.0.0'
+
 mod 'haproxy',
   :git => 'https://github.com/puppetlabs/puppetlabs-haproxy.git',
   :ref => '1.0.0'
